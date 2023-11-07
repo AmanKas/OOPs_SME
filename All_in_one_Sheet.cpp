@@ -16,6 +16,7 @@ int main()
 
 
 
+
 // Access Modifiers
 #include<bits/stdc++.h>
 using namespace std;
@@ -86,6 +87,7 @@ int main()
 
 
 
+
 //Size of Class Padding and Gready Alignment
 #include<bits/stdc++.h>
 using namespace std;
@@ -108,6 +110,7 @@ int main()
     cout << "Size of the Class: " << sizeof(obj) << endl;
     return 0;
 }
+
 
 
 
@@ -165,10 +168,11 @@ int main()
 
 
 
+
+
 //constructor
 #include<bits/stdc++.h>
 using namespace std;
-
 
 class Hero {
     //this is how class is define
@@ -233,12 +237,9 @@ int main()
     char name[5] = "Aman";
     hero1.set_name(name);
     Hero hero2(hero1);
-
-
-
-
     return 0;
 }
+
 
 
 
@@ -287,10 +288,10 @@ int main() {
 
 
 
+
 //Static KeyWord
 #include<bits/stdc++.h>
 using namespace std;
-
 
 class Hero {
     //this is how class is define
@@ -328,10 +329,10 @@ int main()
 
 
 
+
 // Encapsulation
 #include<bits/stdc++.h>
 using namespace std;
-
 
 class student {
 
@@ -376,10 +377,10 @@ int main()
 
 
 
+
 //Inheritance
 #include<bits/stdc++.h>
 using namespace std;
-
 
 class human {
 public:
@@ -431,10 +432,11 @@ int main()
 
 
 
+
+
 // Single Level Inheritance
 #include<bits/stdc++.h>
 using namespace std;
-
 
 class animal {
 public:
@@ -467,7 +469,6 @@ int main()
 #include<bits/stdc++.h>
 using namespace std;
 
-
 class animal {
 public:
     int age;
@@ -496,6 +497,7 @@ int main()
     // 4201019
     return 0;
 }
+
 
 
 
@@ -539,6 +541,8 @@ int main()
 
     return 0;
 }
+
+
 
 
 
@@ -676,7 +680,6 @@ int main()
 using namespace std;
 
 class A {
-
 public:
     void sayHello()
     {
@@ -707,6 +710,7 @@ int main()
 
     return 0;
 }
+
 
 
 
